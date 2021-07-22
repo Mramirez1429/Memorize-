@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*the body of the web app*/
+body {
+    height: 100vh;
+    display: flex;
+    background-color: grey;
+}
+
+/*the title of the start page*/
+.title {
+    text-align: center;
+   
+}
+
+/*the buutons surronding the links*/
+menu {
+    height: 200px;
+    width: 400px;
+    background: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+/*the links itself*/
+a {
+    background-color: black;
+    color: grey;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
